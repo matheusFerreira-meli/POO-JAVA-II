@@ -1,10 +1,10 @@
 package praticaIntegradora2;
 
-public class Produto {
+public class Product {
     private String name;
     private double price;
 
-    public Produto(String name, double price) {
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -27,7 +27,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto: " + this.name + "\n Preço: " + this.price;
+        return "Produto: " + this.getName() + "\n Preço: " + this.getPrice();
     }
 
     public double calc(int qntProducts) {
