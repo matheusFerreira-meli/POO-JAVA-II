@@ -10,9 +10,19 @@ public class Person {
 
     public Person() {}
 
-    public Person(String name, int age, String id) {}
+    public Person(String name, int age, String id) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+    }
 
-    public Person(String name, int age, String id, double heavy, double height) {}
+    public Person(String name, int age, String id, double heavy, double height) {
+        this.name = name;
+        this.age = age;
+        this.id = id;
+        this.height = height;
+        this.heavy = heavy;
+    }
 
     public int calcIMC() {
         double imc = this.heavy/Math.pow(this.height, 2);
