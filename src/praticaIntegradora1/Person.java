@@ -6,4 +6,10 @@ public class Person {
     String id;
     float heavy;
     float height;
+
+    public Person() {}
+
+    public Person(String name, int age, int id) {}
+
+    public Person(String name, int age, int id, float heavy, float height) {}
 }
