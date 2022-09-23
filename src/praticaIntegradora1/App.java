@@ -5,5 +5,7 @@ public class App {
         Person personWithoutAttrs = new Person();
         Person personWithNameAndAge = new Person("Matheus", 20, "id-01");
         Person personWithAllAttrs = new Person("Matheus", 20, "id-01", 60, 1.70);
+
+        System.out.println(personWithAllAttrs);
     }
 }
