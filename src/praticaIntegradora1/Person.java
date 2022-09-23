@@ -4,12 +4,12 @@ public class Person {
     String name;
     int age;
     String id;
-    float heavy;
-    float height;
+    double heavy;
+    double height;
 
     public Person() {}
 
-    public Person(String name, int age, int id) {}
+    public Person(String name, int age, String id) {}
 
-    public Person(String name, int age, int id, float heavy, float height) {}
+    public Person(String name, int age, String id, double heavy, double height) {}
 }
